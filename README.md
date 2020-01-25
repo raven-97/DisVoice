@@ -15,6 +15,7 @@ To install the requeriments, please run
 ```sh
 install.sh
 ```
+ it is better to run this toolbox in a virtual environmnet as it requires older versions of numpy, scipy etc. for version details, check out requirements.txt
 
 For Kaldi output Kaldi must be installed beforehand and the path at kaldi-io/kaldi-io.py:line 14:
 "os.environ['KALDI_ROOT']='/mnt/matylda5/iveselyk/Tools/kaldi-trunk'"
